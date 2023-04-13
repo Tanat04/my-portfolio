@@ -25,3 +25,19 @@ module.exports = {
   },
   plugins: [],
 };
+// // Import the `Config` type from the `@types/tailwindcss` package
+// import type { Config } from 'tailwindcss';
+
+// // Use the `Config` type in the module.exports object
+// const config: Config = {
+//   content: ["./src/**/*.{js,jsx}"],
+//   mode: "jit",
+//   theme: {
+//     extend: {
+//       // ...
+//     },
+//   },
+//   plugins: [],
+// };
+
+// module.exports = config;
