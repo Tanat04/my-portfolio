@@ -4,6 +4,21 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      animation: {
+        text: "text 5s ease infinite",
+      },
+      keyframes: {
+        text: {
+          "0%, 100%": {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
@@ -25,19 +40,3 @@ module.exports = {
   },
   plugins: [],
 };
-// // Import the `Config` type from the `@types/tailwindcss` package
-// import type { Config } from 'tailwindcss';
-
-// // Use the `Config` type in the module.exports object
-// const config: Config = {
-//   content: ["./src/**/*.{js,jsx}"],
-//   mode: "jit",
-//   theme: {
-//     extend: {
-//       // ...
-//     },
-//   },
-//   plugins: [],
-// };
-
-// module.exports = config;

@@ -1,12 +1,13 @@
 import logo from "./logo.svg";
 import logo2 from "./logo2.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
+import nextjs from "./nextjs.png";
+import react from "./react.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import myPic from "./myPic.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -35,9 +36,10 @@ export {
   logo,
   logo2,
   backend,
-  creator,
-  mobile,
+  nextjs,
+  react,
   web,
+  myPic,
   github,
   menu,
   close,
