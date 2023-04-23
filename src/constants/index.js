@@ -25,6 +25,8 @@ import {
   threejs,
 } from "../assets";
 
+export const myGithub = "https://github.com/tanat04";
+
 export const navLinks = [
   {
     id: "about",
@@ -217,6 +219,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
+    demo_link: "https://github.com/",
   },
   {
     name: "Job IT",
@@ -238,6 +241,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    demo_link: "https://github.com/",
   },
   {
     name: "Trip Guide",
@@ -259,6 +263,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    demo_link: "https://github.com/",
   },
 ];
 
