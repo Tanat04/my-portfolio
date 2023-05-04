@@ -22,15 +22,23 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import next from "./tech/next.png";
+import php from "./tech/php.png";
+import psql from "./tech/psql.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import au from "./company/au.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import hospital from "./hospital.png";
+import suppliers from "./suppliers.png";
+import tutorPlus from "./tutorPlus.png";
+import gradeTracker from "./gradeTracker.png";
 
 export {
   logo,
@@ -41,13 +49,21 @@ export {
   web,
   myPic,
   github,
+  au,
   menu,
   close,
+  hospital,
+  suppliers,
+  tutorPlus,
+  gradeTracker,
   css,
   docker,
   figma,
   git,
   html,
+  next,
+  php,
+  psql,
   javascript,
   mongodb,
   nodejs,

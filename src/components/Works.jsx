@@ -84,13 +84,13 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following pet-projects showcases my skills and experience. Each
+          Following are university projects that I can use to demonstrate my abilities. Each
           project is briefly described with links to code repositories and live
           demos in it.
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7 justify-center">
+      <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

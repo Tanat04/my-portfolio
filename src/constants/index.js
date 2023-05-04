@@ -23,6 +23,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  au,
+  next,
+  php,
+  psql,
+  hospital,
+  tutorPlus,
+  gradeTracker,
+  suppliers,
 } from "../assets";
 
 export const myGithub = "https://github.com/tanat04";
@@ -75,16 +83,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -93,6 +93,18 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "next",
+    icon: next,
+  },
+  {
+    name: "php",
+    icon: php,
+  },
+  {
+    name: "psql",
+    icon: psql,
   },
   {
     name: "MongoDB",
@@ -110,65 +122,59 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "React.js Developer (Student)",
+    company_name: "Assumption University",
+    icon: au,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2021 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing web applications using React.js and other related technologies.",
+      "Implementing Create, Read, Update, and Delete functionalities",
+      "Focusing on frontend development",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Full stack Developer (Student)",
+    company_name: "Assumption University",
+    icon: au,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing a full-stack CRUD operation project",
+      "Using ReactJS for frontend development, Next.js for server-side rendering and routing, MongoDB for database management",
+      "Collaborating with a team to achieve project goals",
     ],
   },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -200,70 +206,86 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Grade Tracker",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The website allow students studying CS and IT at Assumption University to keep track of their GPA over the course of their academic journey.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "gatsby",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gradeTracker,
+    source_code_link: "https://github.com/Tanat04/web-dev-project1",
+    demo_link: "https://tanat04.github.io/gradeTracker/",
+  },
+  {
+    name: "Suppliers Management",
+    description:
+      "The website provides CRUD (Create, Read, Update, Delete) functionality for suppliers, with MongoDB serving as the backend database to store the relevant data.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-    demo_link: "https://github.com/",
+    image: suppliers,
+    source_code_link: "https://github.com/Tanat04/stock-final-6410381",
+    demo_link: "https://stock-final-6410381.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Tutor Plus",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A simplified tutoring scheduling and management system. Features CRUD operations, user authentication, real-time updates, and admin-tutor-student roles",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-    demo_link: "https://github.com/",
+    image: tutorPlus,
+    source_code_link: "https://github.com/LynnT-2003/TutorPlus-Registration",
+    demo_link: "https://tutor-plus.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Hospital Management",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A simplified hospital management and appointment system, which employs CRUD operations, PHP, and PostgreSQL as the database management system.",
     tags: [
       {
-        name: "nextjs",
+        name: "php",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "postgresql",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    demo_link: "https://github.com/",
+    image: hospital,
+    source_code_link:
+      "https://github.com/Tanat04/databaseProject/tree/main/dbProject/hospital",
+    demo_link:
+      "https://github.com/Tanat04/databaseProject/tree/main/dbProject/hospital",
   },
 ];
 
