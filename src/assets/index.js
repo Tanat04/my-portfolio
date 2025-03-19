@@ -15,7 +15,7 @@ import gpos from "./gpos.png";
 import framer from "./framer.png";
 import brainwave from "./brainwave.png";
 import sunmiWeb from "./sunmiWeb.png";
-import mahaVertexWeb from "./MahaVertexWeb.png";
+import mahaVertexWeb from "./mahaVertexWeb.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
