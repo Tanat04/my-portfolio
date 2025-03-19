@@ -2,8 +2,11 @@ import React from "react"
 import { BrowserRouter } from "react-router-dom"
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, 
 Works, StarsCanvas, Footer} from './components'
-import { Analytics } from "@vercel/analytics/react"
+import { inject } from '@vercel/analytics';
 
+inject({
+  mode: 'production',
+});
 const App = () => {
   return (
     <BrowserRouter>
@@ -23,7 +26,6 @@ const App = () => {
         </div>
         <Footer />
       </div>
-      <Analytics />
     </BrowserRouter>
   )
 }
