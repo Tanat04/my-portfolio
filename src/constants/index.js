@@ -39,6 +39,7 @@ import {
 	sunmiWeb,
 	brainwave,
 	MahaVertexWeb,
+	mahaVertexWeb,
 } from "../assets";
 
 export const myGithub = "https://github.com/tanat04";
@@ -269,7 +270,7 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: MahaVertexWeb,
+		image: mahaVertexWeb,
 		source_code_link: "",
 		demo_link: "https://mv-realty.vercel.app/",
 	},

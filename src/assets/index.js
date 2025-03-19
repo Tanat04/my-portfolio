@@ -15,7 +15,7 @@ import gpos from "./gpos.png";
 import framer from "./framer.png";
 import brainwave from "./brainwave.png";
 import sunmiWeb from "./sunmiWeb.png";
-import MahaVertexWeb from "./MahaVertexWeb.png";
+import mahaVertexWeb from "./MahaVertexWeb.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -93,6 +93,6 @@ export {
 	tripguide,
 	framer,
 	sunmiWeb,
-	MahaVertexWeb,
+	mahaVertexWeb,
 	brainwave,
 };
