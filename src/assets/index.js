@@ -7,7 +7,15 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import myPic from "./myPic.png";
+import myPic from "./myPic.jpg";
+import tbhlabs from "./tbhlabs.jpeg";
+import mahavertex from "./mahavertex.jpeg";
+import sunmi from "./sunmi.png";
+import gpos from "./gpos.png";
+import framer from "./framer.png";
+import brainwave from "./brainwave.png";
+import sunmiWeb from "./sunmiWeb.png";
+import MahaVertexWeb from "./MahaVertexWeb.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -41,42 +49,50 @@ import tutorPlus from "./tutorPlus.png";
 import gradeTracker from "./gradeTracker.png";
 
 export {
-  logo,
-  logo2,
-  backend,
-  nextjs,
-  react,
-  web,
-  myPic,
-  github,
-  au,
-  menu,
-  close,
-  hospital,
-  suppliers,
-  tutorPlus,
-  gradeTracker,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  next,
-  php,
-  psql,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+	logo,
+	logo2,
+	backend,
+	nextjs,
+	react,
+	web,
+	myPic,
+	github,
+	tbhlabs,
+	mahavertex,
+	sunmi,
+	au,
+	menu,
+	close,
+	hospital,
+	suppliers,
+	tutorPlus,
+	gradeTracker,
+	css,
+	docker,
+	figma,
+	git,
+	html,
+	next,
+	php,
+	psql,
+	javascript,
+	mongodb,
+	nodejs,
+	reactjs,
+	redux,
+	tailwind,
+	typescript,
+	threejs,
+	meta,
+	shopify,
+	starbucks,
+	gpos,
+	tesla,
+	carrent,
+	jobit,
+	tripguide,
+	framer,
+	sunmiWeb,
+	MahaVertexWeb,
+	brainwave,
 };
